@@ -12,10 +12,12 @@ server.get('/users', (req, res) => {
   return res.json({ message : `Hello ${nome}`})
 })
 
-server.get('/users/:id', (req, res) => {
-  const id = req.params.id 
+const users = ['Diego', 'Cláudio', 'Victor']
 
-  return res.json({ message : `Buscando o id ${id}`})
+server.get('/users/:index', (req, res) => {
+  const { index } = req.params
+
+  return res.json(users[index])
 })
 
 server.listen(3000)
