@@ -41,6 +41,16 @@ class AppointmentController {
       date: Yup.date().required(),
     });
 
+    const checkUserProvider = await User.findOne({
+      where: { id: req.userId, provider: true },
+    });
+
+    if (checkUserProvider) {
+      return res
+        .status(401)
+        .json({ error: 'Provider cannot create an appointment' });
+    }
+
     if (!(await schema.isValid(req.body))) {
       return res.status(400).json({ error: 'Validations fails' });
     }
