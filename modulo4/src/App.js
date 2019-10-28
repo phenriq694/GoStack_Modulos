@@ -2,10 +2,10 @@ import React from 'react'
 
 import './App.css'
 
-import wallpaper from "./assets/wallpaper.png"
+import TechList from './components/TechList'
 
 function App() {
-  return <img src={wallpaper} />
+  return <TechList />
 }
 
 export default App
