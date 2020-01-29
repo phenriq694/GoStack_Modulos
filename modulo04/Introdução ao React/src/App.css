@@ -3,3 +3,7 @@ body {
   color: #fff;
   font-family: Arial, Helvetica, sans-serifs;
 }
+
+button {
+  margin-left: 10px;
+}
