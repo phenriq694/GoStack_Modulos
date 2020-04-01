@@ -68,6 +68,6 @@ Neste módulo desenvolvemos uma aplicação que conecta-se a API do Github e con
 Essa apliacão foi muito boa para fixar os conhecimentos básicos de uma aplicação React e também para ter uma visão de como é uma aplicação React completa do ínicio ao fim. 
 
 <h3 align="center">
-  <img src="https://user-images.githubusercontent.com/54601930/78100202-80309400-73ba-11ea-94b1-d139f7708503.gif" />
+  <img src="https://user-images.githubusercontent.com/54601930/78100202-80309400-73ba-11ea-94b1-d139f7708503.gif" width="800px" />
 </h3>
 
