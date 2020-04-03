@@ -25,10 +25,13 @@ https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo03/Continuando%2
 https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo04
 
 ### Desafio do módulo: 
-https://github.com/phenriq694/GoStack_Desafios/tree/master/modulo04/Introdu%C3%A7%C3%A3o%20ao%20React
+https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo04/Desafio
 
 ## Módulo 5: Primeiro projeto com React
 https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo05
+
+### Desafio do módulo:
+https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo05/Desafio
 
 ## Módulo 7: Arquitetura Flux
 https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo07
