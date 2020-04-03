@@ -39,15 +39,15 @@ export default class Main extends Component {
 
     this.setState({ loading: true });
 
-    const { newRepo, repositories } = this.state;
-
-    const repoExistsStorage = await repositories.find(r => r.name === newRepo);
-
-    if (repoExistsStorage) {
-      throw new Error('Repositórios duplicado!');
-    }
-
     try {
+      const { newRepo, repositories } = this.state;
+
+      const repoExistsStorage = await repositories.find(
+        r => r.name === newRepo
+      );
+
+      if (repoExistsStorage) throw new Error('Repositórios duplicado!');
+
       const response = await api.get(`/repos/${newRepo}`);
 
       const data = {
