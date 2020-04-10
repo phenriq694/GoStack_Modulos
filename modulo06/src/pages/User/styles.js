@@ -43,9 +43,9 @@ export const Stars = styled.FlatList.attrs({
   margin-top: 20px;
 `;
 
-export const Starred = styled.View`
+export const Starred = styled(RectButton)`
   background: #f5f5f5;
-  border: 1px solid #7159c1;
+  border: 5px solid #7159c1;
   border-radius: 4px;
   padding: 10px 15px;
   margin-bottom: 20px;
@@ -78,5 +78,3 @@ export const Author = styled.Text`
   color: #666;
   margin-top: 2px;
 `;
-
-export const StarredPageButton = styled(RectButton)``;

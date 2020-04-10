@@ -16,7 +16,6 @@ import {
   Info,
   Title,
   Author,
-  StarredPageButton,
 } from './styles';
 
 export default class User extends Component {
@@ -116,15 +115,13 @@ export default class User extends Component {
               data={stars}
               keyExtractor={(star) => String(star.id)}
               renderItem={({ item }) => (
-                <StarredPageButton onPress={() => this.handleNavigate(item)}>
-                  <Starred>
-                    <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
-                    <Info>
-                      <Title>{item.name}</Title>
-                      <Author>{item.owner.login}</Author>
-                    </Info>
-                  </Starred>
-                </StarredPageButton>
+                <Starred onPress={() => this.handleNavigate(item)}>
+                  <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
+                  <Info>
+                    <Title>{item.name}</Title>
+                    <Author>{item.owner.login}</Author>
+                  </Info>
+                </Starred>
               )}
             />
             {loadingMorePages && (
