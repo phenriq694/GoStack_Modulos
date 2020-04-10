@@ -16,6 +16,7 @@ import {
   Info,
   Title,
   Author,
+  StarredPageButton,
 } from './styles';
 
 export default class User extends Component {
@@ -83,6 +84,12 @@ export default class User extends Component {
     this.setState({ stars: response.data, refreshing: false });
   };
 
+  handleNavigate = (repository) => {
+    const { navigation } = this.props;
+
+    navigation.navigate('StarredPage', { repository });
+  };
+
   render() {
     const { navigation } = this.props;
     const { stars, loading, loadingMorePages, refreshing } = this.state;
@@ -109,13 +116,15 @@ export default class User extends Component {
               data={stars}
               keyExtractor={(star) => String(star.id)}
               renderItem={({ item }) => (
-                <Starred>
-                  <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
-                  <Info>
-                    <Title>{item.name}</Title>
-                    <Author>{item.owner.login}</Author>
-                  </Info>
-                </Starred>
+                <StarredPageButton onPress={() => this.handleNavigate(item)}>
+                  <Starred>
+                    <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
+                    <Info>
+                      <Title>{item.name}</Title>
+                      <Author>{item.owner.login}</Author>
+                    </Info>
+                  </Starred>
+                </StarredPageButton>
               )}
             />
             {loadingMorePages && (
