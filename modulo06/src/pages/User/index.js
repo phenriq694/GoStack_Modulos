@@ -32,6 +32,8 @@ export default class User extends Component {
   state = {
     stars: [],
     loading: false,
+    loadingMorePages: false,
+    page: 2,
   };
 
   async componentDidMount() {
@@ -45,9 +47,28 @@ export default class User extends Component {
     this.setState({ stars: response.data, loading: false });
   }
 
+  loadMore = async () => {
+    const { navigation } = this.props;
+    const { stars, page } = this.state;
+
+    this.setState({ loadingMorePages: true });
+
+    const user = navigation.getParam('user');
+
+    const response = await api.get(`/users/${user.login}/starred`, {
+      params: { page },
+    });
+
+    this.setState({
+      stars: [...stars, ...response.data],
+      page: page + 1,
+      loadingMorePages: false,
+    });
+  };
+
   render() {
     const { navigation } = this.props;
-    const { stars, loading } = this.state;
+    const { stars, loading, page, loadingMorePages } = this.state;
 
     const user = navigation.getParam('user');
 
@@ -62,19 +83,26 @@ export default class User extends Component {
         {loading ? (
           <ActivityIndicator size="large" color="#7159c1" />
         ) : (
-          <Stars
-            data={stars}
-            keyExtractor={(star) => String(star.id)}
-            renderItem={({ item }) => (
-              <Starred>
-                <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
-                <Info>
-                  <Title>{item.name}</Title>
-                  <Author>{item.owner.login}</Author>
-                </Info>
-              </Starred>
+          <>
+            <Stars
+              onEndReachedThreshold={0.2}
+              onEndReached={this.loadMore}
+              data={stars}
+              keyExtractor={(star) => String(star.id)}
+              renderItem={({ item }) => (
+                <Starred>
+                  <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
+                  <Info>
+                    <Title>{item.name}</Title>
+                    <Author>{item.owner.login}</Author>
+                  </Info>
+                </Starred>
+              )}
+            />
+            {loadingMorePages && (
+              <ActivityIndicator size="large" color="#7159c1" />
             )}
-          />
+          </>
         )}
       </Container>
     );
