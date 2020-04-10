@@ -34,6 +34,7 @@ export default class User extends Component {
     loading: false,
     loadingMorePages: false,
     page: 2,
+    refreshing: false,
   };
 
   async componentDidMount() {
@@ -66,9 +67,25 @@ export default class User extends Component {
     });
   };
 
+  refreshList = async () => {
+    this.setState({ refreshing: true });
+
+    const { navigation } = this.props;
+
+    const user = navigation.getParam('user');
+
+    const response = await api.get(`/users/${user.login}/starred`, {
+      params: {
+        page: 1,
+      },
+    });
+
+    this.setState({ stars: response.data, refreshing: false });
+  };
+
   render() {
     const { navigation } = this.props;
-    const { stars, loading, page, loadingMorePages } = this.state;
+    const { stars, loading, loadingMorePages, refreshing } = this.state;
 
     const user = navigation.getParam('user');
 
@@ -87,6 +104,8 @@ export default class User extends Component {
             <Stars
               onEndReachedThreshold={0.2}
               onEndReached={this.loadMore}
+              onRefresh={this.refreshList}
+              refreshing={refreshing}
               data={stars}
               keyExtractor={(star) => String(star.id)}
               renderItem={({ item }) => (
