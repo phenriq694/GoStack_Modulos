@@ -90,3 +90,36 @@ In this module, we developed an application to acess the GitHub API by sending a
 <h3 align="center">
   <img src="https://user-images.githubusercontent.com/54601930/79061321-7e41bd00-7c65-11ea-93ad-1ebc1ded8b7c.gif" width="300px" />
 </h3>
+
+## :information_source: How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.21.1][yarn] or higher installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/phenriq694/GoStack_Modulos.git
+
+# Go into the repository
+$ cd GoStack_Modulos
+
+# Change the branch
+$ git checkout goStack_modulos_2019
+
+# Go into the main repository
+$ cd modulo06/first-project-with-react-native
+
+# Install dependencies
+$ yarn 
+
+# Start application
+$ yarn start
+
+# Run the app (iOS)
+$ yarn ios
+
+# Run the app (Android)
+$ yarn android
+```
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
