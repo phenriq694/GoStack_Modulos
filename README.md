@@ -3,11 +3,10 @@
 </h1>
 
 <h2 align="center">
-  Módulos
+  Modules
 </h2>
 
-Com o GoStack Bootcamp eu estou sempre aprendendo e atualizado sobre como utilizar as tecnologias Node.js, ReactJS, React Native e diversas outras ferramentas que se complementam. 
-Neste repositório estão todas as aplicações desenvolvidas durante os módulos apresentados no bootcamp. 
+At GoStack Bootcamp I'm always learning and up-to-date on how to use Node.js, ReactJS, React Native and several other technologies and tools that complement each other. In this repository are all the application developed during the modules presented in the bootcamp.
 
 ## Módulo 1: Ambiente e conceitos
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo01/Ambientes%20e%20conceitos
