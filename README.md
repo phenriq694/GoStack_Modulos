@@ -3,42 +3,49 @@
 </h1>
 
 <h2 align="center">
-  Módulos
+  Modules
 </h2>
 
-Com o GoStack Bootcamp eu estou sempre aprendendo e atualizado sobre como utilizar as tecnologias Node.js, ReactJS, React Native e diversas outras ferramentas que se complementam. 
-Neste repositório estão todas as aplicações desenvolvidas durante os módulos apresentados no bootcamp. 
+At GoStack Bootcamp I'm always learning and up-to-date on how to use Node.js, ReactJS, React Native and several other technologies and tools that complement each other. 
+In this repository are all the application developed during the modules presented in the bootcamp. 
 
-## Módulo 1: Ambiente e conceitos
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo01/Ambientes%20e%20conceitos
+## Level 01
+### Back-end with Node.js:
+https://github.com/phenriq694/GoStack_Modulos/tree/master/nivel01/backend-nodejs
 
-### Desafio do módulo: 
-https://github.com/phenriq694/GoStack_Desafios/tree/master/modulo01/Ambientes%20e%20conceitos
+
+# GoStack Bootcamp - 2019
 
 ## Módulo 2: Iniciando o back-end do GoBarber
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo02/gobarber
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo02/gobarber
 
 ## Módulo 3: Continuando a API do GoBarber
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo03/Continuando%20API%20do%20GoBarber/src
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo03/Continuando%20API%20do%20GoBarber/src
 
 ## Módulo 4: Introdução ao React
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo04
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo04
 
 ### Desafio do módulo: 
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo04/Desafio
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo04/Desafio
 
 ## Módulo 5: Primeiro projeto com React
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo05
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo05
 
 ### Desafio do módulo:
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo05/Desafio
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo05/Desafio
+
+## Módulo 6: First Project with React Native
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo06
+
+### Desafio do módulo:
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo05/Desafio
 
 ## Módulo 7: Arquitetura Flux
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo07
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo07
 
 ## Módulo 8: Utilizando React Hooks
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo08
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo08
 
 ## Módulo 9: GoBarber Web
-https://github.com/phenriq694/GoStack_Modulos/tree/master/modulo09
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo09
 
