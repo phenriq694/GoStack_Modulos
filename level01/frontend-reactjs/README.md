@@ -38,3 +38,34 @@ Module Content:
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react/1.%20Create%20a%20project/Without%20create-react-app/Configuring%20Webpack.md
 
+- Listing Projects from API: How to retrive data from an API using axios and 'useEffect' to call the API and set the value in the state.
+
+- Registering Projects: In this class we finish the app developed during the module to exemplify how to start a React Project from scratch. It was added the function to store new elements by sending data to the API, adding to the state and redenring them. 
+
+<h3 align="center">Application Developed</h3>
+In this module we delevelop a basic Reac application to exemply all the basic concepts of React, such as, Components, Properties, State & Immutability, how to do a call to an API and how to configure a React project from scratch setting Webpack and Babel. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54601930/79282303-3bf9c500-7e8b-11ea-97cc-4de3c9f2563d.gif" width="800px" />
+</p>
+
+## :information_source: How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.21.1][yarn] or higher installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/phenriq694/GoStack_Modulos.git
+
+# Go into the repository
+$ cd GoStack_Modulos/level01/frontend-reactjs
+
+# Install dependencies
+$ yarn 
+
+# Start application
+$ yarn dev
+```
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
