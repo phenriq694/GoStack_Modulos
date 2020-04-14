@@ -25,3 +25,16 @@ Module Content:
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react/1.%20Create%20a%20project/Without%20create-react-app/Configuring%20Webpack.md
 
 - Componentization: What is a component in ReacJS and how to use. 
+
+- Properties: What is a property, how to pass it to a component and retrieve the values. 
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Propriedades/Propriedades%20do%20React.md
+
+- State and Immutability: What is state in a component and how to change its value respecting immutability.
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/State/State%20%26%20Immutability.md
+
+- Importing CSS and images: How to configure other loaders such as 'file-loader', 'style-loader' and 'css-loader' in the Webpack config file, to use the import of images and css files within the components. 
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/1.%20Create%20a%20project/Without%20create-react-app/Configuring%20Webpack.md
+
