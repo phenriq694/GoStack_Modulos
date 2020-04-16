@@ -20,6 +20,10 @@ Module Content:
 
 - The next five classes were about the developing the application using concepts presented in previous ReactJS modules, such as: Configuring routes, Global styles, Create Header, Stylization of the Home Page, Stylization of the Cart Page.
 
+- Configuring API: How to use the lib 'json-server' to create a fake API for testing without setting a entire backend. 
+
+- Getting products from API: Acessing the API and retrieving products to render.
+
 Aplicação desenvolvida: RocketShoes 
 Exemplo de e-commerce compartilhando informações entre páginas. 
 
