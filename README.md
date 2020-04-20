@@ -16,6 +16,17 @@ https://github.com/phenriq694/GoStack_Modulos/tree/master/nivel01/backend-nodejs
 #### Challenge: 
 https://github.com/phenriq694/goStack-level01-backend-nodejs-challenge
 
+### Front-end with ReactJS: 
+https://github.com/phenriq694/GoStack_Modulos/tree/master/level01/frontend-reactjs
+
+#### Challenge: 
+https://github.com/phenriq694/goStack-level01-frontend-reacjs-challenge
+
+## Mobile with React Native:
+https://github.com/phenriq694/GoStack_Modulos/tree/master/level01/mobile
+
+#### Challenge:
+
 # GoStack Bootcamp - 2019
 
 ## Module 02: Starting the GoBarber back-end 
@@ -23,12 +34,6 @@ https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo02
 
 ## Module 03: Continuing GoBarber API 
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo03/Continuando%20API%20do%20GoBarber/src
-
-## Module 04: React Introduction
-https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo04
-
-### Challenge:
-https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo04/Desafio
 
 ## Module 05: First Project with React
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo05
