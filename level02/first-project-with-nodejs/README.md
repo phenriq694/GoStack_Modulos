@@ -17,4 +17,8 @@ Module Content:
 
 - EditorConfig: How to install and configure the EditorConfig to maintain code patterns between differents editors and OSs;
 
-- ESLint:
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/typescript/nodejs/Configuration/EditorConfig.md
+
+- ESLint: How to install and configure the ESLint to maintain the code styling.
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/typescript/nodejs/Configuration/ESLint%20Configuration.md
