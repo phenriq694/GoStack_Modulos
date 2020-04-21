@@ -25,3 +25,15 @@ Module Content:
 
 - Importing TS Files: How to configure ESLint to understand ts files importation.
 
+- Prettier: How to install and configure the Prettier to maintain the code styling.
+
+- Debugging NodeJS: How to use the debug function from de VS Code.
+
+- Application Layout: Preview of the application that will be developed in the next module.
+
+- Registering Appointments: Handling with date type using the lib 'date-fns'
+
+- Data Validation: How to validate the request body data and trigger status code as response.
+
+
+
