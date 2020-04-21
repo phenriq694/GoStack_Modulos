@@ -39,3 +39,9 @@ Module Content:
 
 - Creating Respositories: How to create a repository and interact with the models.
 
+- Listing Appointments: Creating a new method in the repository 'AppointmentRepository' to list all elements stores in the private atribute 'appointments'.
+
+- Working with data: How to implement DTO (Data Transfer Objetc) to pass object as params and explicit which params the function or method will need.
+
+
+
