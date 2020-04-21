@@ -22,3 +22,6 @@ Module Content:
 - ESLint: How to install and configure the ESLint to maintain the code styling.
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/typescript/nodejs/Configuration/ESLint%20Configuration.md
+
+- Importing TS Files: How to configure ESLint to understand ts files importation.
+
