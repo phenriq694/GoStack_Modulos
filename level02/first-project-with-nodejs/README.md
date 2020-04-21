@@ -35,5 +35,7 @@ Module Content:
 
 - Data Validation: How to validate the request body data and trigger status code as response.
 
+- Appointement Model: How to create a model an configure the entity of the application.
 
+- Creating Respositories: How to create a repository and interact with the models.
 
