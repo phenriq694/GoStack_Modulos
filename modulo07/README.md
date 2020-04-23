@@ -24,6 +24,21 @@ Module Content:
 
 - Getting products from API: Acessing the API and retrieving products to render.
 
+- Configuring Redux: How to set up the firsts step to use Redux.
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/Configuration.md
+
+- Adding to cart: In this class, I learned how to connect a component to redux, how to dispatch an action, listen the action in the reducer and connect another component to redux to get reducer's state data.
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/2.%20Connect%20a%20Component.md
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/3.%20Reducer%20Configuration.md
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/4.%20Sending%20actions%20from%20the%20component.md
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/5.%20Get%20data%20from%20a%20reducer.md
+
+- Reactotron + Redux: How to connect Reactotron to React and Redux to debug the application.
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Tools/Reactotron.md
+  
 Aplicação desenvolvida: RocketShoes 
 Exemplo de e-commerce compartilhando informações entre páginas. 
 
