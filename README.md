@@ -31,6 +31,13 @@ https://github.com/phenriq694/goStack-level01-mobile-react-native-challenge
 ## TypeScript:
 https://github.com/phenriq694/GoStack_Modulos/tree/master/level01/typescript
 
+## Level 02
+### First Project with Node.js:
+https://github.com/phenriq694/GoStack_Modulos/tree/master/level02/first-project-with-nodejs
+
+#### Challenge: 
+https://github.com/phenriq694/GoStack-level02-first-project-with-nodejs-challenge
+
 # GoStack Bootcamp - 2019
 
 ## Module 02: Starting the GoBarber back-end 
