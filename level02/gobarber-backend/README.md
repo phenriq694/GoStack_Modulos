@@ -20,6 +20,15 @@ Module Content:
 - ESLint, Prettier and EditorConfig;
 - date-fns;
 - uuidv4;
+- TypeORM;
+
+### Database
+- Postgres;
+
+### Tools
+- Insomnia;
+- DBeaver; 
+- Docker;
 
 #### Routes
 Add new appointments
