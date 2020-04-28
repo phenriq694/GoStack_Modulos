@@ -38,6 +38,18 @@ Module Content:
 - Reactotron + Redux: How to connect Reactotron to React and Redux to debug the application.
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Tools/Reactotron.md
+
+- Listing products in the cart: In this class we return the products added to the redux state on the cart page and add a new attribute to the product, before being added to redux state, called 'amount' to control the number of products of the same type added to cart. 
+
+- Duplicate Product: In this class, we use the lib 'immer' to manipulate the reducer state respecting the principles of immutability; 
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/Using%20immer%20to%20handle%20with%20immutables%20objects.md
+  
+- Remove product: Adding the feature to remove a product from the cart wiht a new action 'REMOVE_TO_CART';
+
+- Refactoring the Actions: In this class, a file only for the actions was created and were converted, in the component in which they are being used, to component props;
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/6.%20Refactoring%20Actions.md
   
 Aplicação desenvolvida: RocketShoes 
 Exemplo de e-commerce compartilhando informações entre páginas. 
