@@ -50,7 +50,16 @@ Module Content:
 - Refactoring the Actions: In this class, a file only for the actions was created and were converted, in the component in which they are being used, to component props;
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/6.%20Refactoring%20Actions.md
-  
+
+- Changing the amount: adding a new action to update the amount of a product;
+
+- Calculating totals: Calculating procduct values and passing attributes to the component props to do the rendering;
+
+- Displaying amounts: showing the total of a product added to the cart; 
+
+
+
+
 Aplicação desenvolvida: RocketShoes 
 Exemplo de e-commerce compartilhando informações entre páginas. 
 
