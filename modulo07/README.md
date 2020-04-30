@@ -57,7 +57,9 @@ Module Content:
 
 - Displaying amounts: showing the total of a product added to the cart; 
 
+- Configuring Redux Saga: how to add redux saga in the react application to intercept actions, process data and trigger another action; 
 
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/redux-saga/1.%20Configuration.md
 
 
 Aplicação desenvolvida: RocketShoes 
