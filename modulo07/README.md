@@ -61,6 +61,10 @@ Module Content:
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/redux-saga/1.%20Configuration.md
 
+- Reactotron + Saga: Configuring the Reactotron to debug Saga. 
+
+- Separating Actions: Refactoring the actions and passing some functionalities to the saga. 
+
 
 Aplicação desenvolvida: RocketShoes 
 Exemplo de e-commerce compartilhando informações entre páginas. 
