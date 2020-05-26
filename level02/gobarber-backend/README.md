@@ -27,7 +27,7 @@ Module Content:
 
 ### Tools
 - Insomnia;
-- DBeaver; 
+- DBeaver;
 - Docker;
 
 #### Routes
@@ -51,6 +51,12 @@ GET '/appointments'
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.21.1][yarn] or higher installed on your computer. From your command line:
 
 ```bash
+# Configure a docker image with postgres
+docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+# Create a database called
+gostack_gobarber
+
 # Clone this repository
 $ git clone https://github.com/phenriq694/GoStack_Modulos.git
 
@@ -59,6 +65,9 @@ $ cd GoStack_Modulos/level02/gobarber-backend
 
 # Install dependencies
 $ yarn
+
+# Run the migrations
+yarn typorm migration:run
 
 # Start application
 $ yarn dev:server
