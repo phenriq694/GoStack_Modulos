@@ -22,13 +22,13 @@ https://github.com/phenriq694/GoStack_Modulos/tree/master/level01/frontend-react
 #### Challenge: 
 https://github.com/phenriq694/goStack-level01-frontend-reacjs-challenge
 
-## Mobile with React Native:
+### Mobile with React Native:
 https://github.com/phenriq694/GoStack_Modulos/tree/master/level01/mobile
 
 #### Challenge:
 https://github.com/phenriq694/goStack-level01-mobile-react-native-challenge
 
-## TypeScript:
+### TypeScript:
 https://github.com/phenriq694/GoStack_Modulos/tree/master/level01/typescript
 
 ## Level 02
@@ -38,10 +38,13 @@ https://github.com/phenriq694/GoStack_Modulos/tree/master/level02/first-project-
 #### Challenge: 
 https://github.com/phenriq694/GoStack-level02-first-project-with-nodejs-challenge
 
-# GoStack Bootcamp - 2019
+### GoBarber Back-end:
+https://github.com/phenriq694/GoStack_Modulos/tree/master/level02/gobarber-backend
 
-## Module 02: Starting the GoBarber back-end 
-https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo02/gobarber
+#### Challenge: 
+https://github.com/phenriq694/goStack-level02-challenge
+
+# GoStack Bootcamp - 2019
 
 ## Module 03: Continuing GoBarber API 
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo03/Continuando%20API%20do%20GoBarber/src
