@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 
 function App() {
-  const [tech, setTech] = useState(['']);
+  const [tech, setTech] = useState([]);
   const [newTech, setNewTech] = useState('');
 
   const handleAdd = useCallback(() => {
@@ -30,7 +30,7 @@ function App() {
           <li key={t}>{t}</li>
         ))}
       </ul>
-      <strong>Você tem {techSize} tecnologias.</strong>
+      <strong>You have {techSize} techs.</strong>
       <br />
       <input value={newTech} onChange={e => setNewTech(e.target.value)} />
       <button type="button" onClick={handleAdd}>
