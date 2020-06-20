@@ -1,85 +1,73 @@
-Neste módulo foi apresentado uma nova funcionalidades do React, os Hooks. 
-Com ele podemos diminuir a verbosidade do código, eliminar o uso de classes e 
-até mesmo aprimora o desempenho da aplicação. 
-Os hooks apresentados foram o useState, useEffect, useCallback e useMemo. 
+<h1 align="center">
+  <img 
+    alt="React Hooks" src="https://user-images.githubusercontent.com/54601930/85194267-8e989880-b2a3-11ea-9386-d951c746e9c9.png" 
+    width="200px" style="border-radius: 50%"
+  />
 
-Exemplo do código desenvolvido no projeto 'react-hooks-examples'
+  <p>
+    React Hooks
+  </p>
+</h1>
 
-```javascript
-import REact, { useState, useEffect, useMemo, useCallback } from 'react';
+In this module, the React Hooks were presented. With this feature we can decrease code verbose, eliminated class and also improve application performance. 
+The Hooks preseted were: useState, useEffect, useCallback and useMemo.
 
-function App() {
-    /*
-    * Utilizando os Hooks, usamos um useState separado pra cada estado. 
-    * O useState retorna um Array. Na premira posição ele retorna o próprio estado
-    * e na segunda, retorna uma função para atualizar o estado. 
-    * No exemplo a baixo usamos a desestruturação para pegar esses valores. 
-    */
-  const [newTech, setNewTech] = useState('');
+Module Content:
 
-  /*
-   * O useCallback é utilizado para funções que são montadas toda vez que a página
-   * é renderizada. 
-   * Dessa forma, a função só é montada quando as variáveis passadas como segundo
-   * parâmetro, forem alteradas. 
-   */
-  const handleAdd = useCallback(() => {
-    setTech([...tech, newTech]);
-    setNewTech('');
-  }, [newTech, tech]);
+  - Configuring structure: Start a React Project with ESLint and Prettier;
 
-  /* 
-   * O useEffect é utilizado para substituir os métodos de ciclo de vida como
-   * o 'componentDidMount' ou o 'componentDidUpdate'. 
-   * O primeiro parâmetro que ele recebe é a função que vai ser executada e o 
-   * segundo é quando que ela vai ser executada. 
-   * Quando não informamos nenhuma variável no segundo parâmetro, ele executa 
-   * apenas uma vez ao carregar a página. 
-   */
-  useEffect(() => {
-    const storageTech = localStorage.getItem('tech');
+    https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Hooks/eslint-plugin-react-hooks.md
 
-    if (storageTech) {
-      setTech(JSON.parse(storageTech));
-    }
-  }, []);
+  - useState Hook: How to use the 'useState' hook;
 
-  /*
-   * Como useMemo, podemos criar funções que só atualizam quando uma determinada
-   * variável for alterarada. 
-   * Muito utilizada para funções que fazem cálculos complexos e que não deveriam
-   * ser carregadas toda vez que a página for redenrizada. 
-   */
-  const techSize = useMemo(() => tech.length, [tech]);
+    https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Hooks/Hooks.md#usestate
 
-  /* 
-   * Passando a variável 'tech' no segundo parâmetro do useEffect faz com que 
-   * essa função seja executada, toda vez que houver uma alteração em 'tech'. 
-   */
-  useEffect(() => {
-    localStorage.setItem('tech', JSON.stringify(tech));
-  }, [tech]);
+  - useEffect Hook: How to use the 'useEffect' hook;
 
-  return (
-    <>
-      <ul>
-        {tech.map(t => (
-          <li key={t}>{t}</li>
-        ))}
-      </ul>
-      <strong>Você tem {techSize} tecnologias.</strong>
-      <br />
-      <input value={newTech} onChange={e => setNewTech(e.target.value)} />
-      <button type="button" onClick={handleAdd}>
-        Adicionar
-      </button>
-    </>
-  );
-}
+    https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Hooks/Hooks.md#useeffect
 
-export default App;
-``` 
+  - useMemo Hook: How to use the 'useMemo' hook;
 
-Após a introdução dos hooks, refatoramos todos o código do projeto desenvolvido 
-no módulo anterior usando os hooks e convertendo classes para funções. 
-Também foi apresentado hooks junto com o redux. 
+    https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Hooks/Hooks.md#usememo
+
+  - useCallback Hook: How to use the 'useCallback' hook;
+
+    https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Hooks/Hooks.md#usecallback
+
+  - Converting Class: How to converted a class component to a function component using React Hooks;
+
+  - Hooks with Redux: How to use React Hooks with Redux; 
+
+<h3 align="center"> Developed Application </h3>
+In this module, we developed a basic React application to learn how to use the React Hooks. 
+
+<h3 align="center">
+  <img src="https://user-images.githubusercontent.com/54601930/85197350-d07f0a00-b2b6-11ea-8dd0-f842c110a26f.gif" width="600px" />
+</h3>
+
+## :information_source: How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.21.1][yarn] or higher installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/phenriq694/GoStack_Modulos.git
+
+# Go into the repository
+$ cd GoStack_Modulos
+
+# Change the branch
+$ git checkout goStack_modulos_2019
+
+# Go into the main repository
+$ cd modulo08/redux-hooks-examples
+
+# Install dependencies
+$ yarn 
+
+# Start application
+$ yarn start
+```
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
