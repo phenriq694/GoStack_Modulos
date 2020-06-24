@@ -15,7 +15,7 @@ https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo01
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo02/gobarber
 
 ## Module 03: Continuing GoBarber API 
-https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo03/Continuando%20API%20do%20GoBarber/src
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo03/
 
 ## Module 04: React Introduction
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo04
