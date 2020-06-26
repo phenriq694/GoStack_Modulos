@@ -12,7 +12,7 @@ At GoStack Bootcamp I'm always learning and up-to-date on how to use Node.js, Re
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo01/Ambientes%20e%20conceitos
 
 ## Module 02: Starting the GoBarber back-end 
-https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo02/gobarber
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo02
 
 ## Module 03: Continuing GoBarber API 
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo03/
