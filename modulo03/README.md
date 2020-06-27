@@ -69,7 +69,7 @@ Module Content:
 
   - Mark Notifications Read: In this class, we create the 'update' method of the notification controller to update when a notification is read. Another 'schema' method, 'findAndUpdate', was introduced, which finds and updates an element.
 
-    https://github.com/phenriq694/base_de_conhecimento/blob/master/node/ORMs/mongoose/M%C3%A9todos.md#findbyidandupdate
+    https://github.com/phenriq694/base_de_conhecimento/blob/master/node/Database/MongoDB/mongoose/M%C3%A9todos.md#findbyidandupdate
 
 - Sending Cancellation Emails: In this section of the module, I was introduced to advanced nodejs topics, such as sending emails using the 'nodemailer' lib, creating templates for these emails, how to use a database of key-value like Redis and queues with BeeQueue. This section was divided into 7 classes:
 
@@ -197,6 +197,35 @@ Query Params:
   "page": 1
 }
 ```
+Cancel an appointment
+```
+DELETE '/appointments/:appointment_id'
+
+Bearer Authetication
+```
+List Provider's Schedule
+```
+GET '/schedule'
+
+Bearer Authetication
+
+Query Params:
+{
+  "date": "2020-06-27T15:00:00-03:00"
+}
+```
+List notifications
+```
+GET '/notifications'
+
+Bearer Authetication
+```
+Mark notification read: 
+``` 
+PUT '/notifications/:notification_id'
+
+Bearer Authetication
+``` 
 ## Libs:
 - Multer;
 - date-fns;
@@ -248,11 +277,14 @@ docker run --name gobarber -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 # Create a docker container with MongoDB
 docker run --name gobarber_mongo -p 27017:27017 -d -t mongo
 
-# Create a docker container with MongoDB
+# Create a docker container with Redis
 docker run --name gobarber_redis -p 6379:6379 -d -t redis:alpine
 
 # Run the migrations
 yarn sequelize db:migrate
+
+# Start Queue 
+yarn queue
 
 # Start back-end
 yarn dev
