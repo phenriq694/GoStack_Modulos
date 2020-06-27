@@ -56,7 +56,7 @@ Module Content:
   - Configuring MongoDB: In this class, it was presented how to configure a docker instance with MongoDB and the first settings with 'mongoose';
 
     https://github.com/phenriq694/base_de_conhecimento/blob/master/docker/MongoDB/Inst%C3%A2ncia%20do%20MongoDB.md
-    https://github.com/phenriq694/base_de_conhecimento/blob/master/node/ORMs/mongoose/1.%20Configura%C3%A7%C3%A3o%20do%20mongoose.md
+    https://github.com/phenriq694/base_de_conhecimento/blob/master/node/Database/MongoDB/mongoose/1.%20Configura%C3%A7%C3%A3o%20do%20mongoose.md
 
   - Notifying New Appointments: In this class, it was presented how to configure a 'schema' equivalent to sequelize models, how to import these 'schemas' in the controllers and how to use their methods;
 
@@ -98,9 +98,9 @@ Module Content:
 
     https://github.com/phenriq694/base_de_conhecimento/blob/master/node/ORMs/sequelize/3.%20Models/Cria%C3%A7%C3%A3o%20de%20uma%20model.md#adicionando-fun%C3%A7%C3%B5es-dentro-dos-campos
 
-- Advanced Configuration: In this section of this module, I learned how to monitor errors in production with the Sentry service and also a very important concept that of environment variables to hide confidential information from the code. This section was divided into 2 classes:
+- Advanced Configurations: In this section of this module, I learned how to monitor errors in production with the Sentry service and also a very important concept that of environment variables to hide confidential information from the code. This section was divided into 2 classes:
  
-  Exception handling: In this class, the Sentry service was introduced, to deal with errors in production. It was presented how to create an account in the service, how to configure a new project and the code. In addition, the lib 'express-async-errors' was introduced to return errors in asynchronous functions and another lib to deal with the way errors are shown with 'youch'.
+  - Exception handling: In this class, the Sentry service was introduced, to deal with errors in production. It was presented how to create an account in the service, how to configure a new project and the code. In addition, the lib 'express-async-errors' was introduced to return errors in asynchronous functions and another lib to deal with the way errors are shown with 'youch'.
 
     https://github.com/phenriq694/base_de_conhecimento/blob/master/node/Monitoramento%20de%20erros/Tratamento%20de%20exce%C3%A7%C3%B5es.md
 
@@ -108,6 +108,95 @@ Module Content:
 
     https://github.com/phenriq694/base_de_conhecimento/blob/master/node/Vari%C3%A1veis%20de%20Ambiente/Vari%C3%A1veis%20de%20ambiente.md
 
+## Routes
+Create a new user
+```
+POST '/users'
+
+Request Body
+{
+  "name": "",
+  "email": "",
+  "password": "",
+  "provider": true | false
+}
+```
+Update a user
+```
+PUT '/users'
+
+Bearer Authetication
+
+Request Body
+{
+  "name": "",
+  "email": "",
+  "oldpassword: "",
+  "password": "",
+  "confirmPassword": ""
+}
+```
+Create a session
+```
+POST '/sessions'
+
+Request Body
+{
+	"email":"",
+	"password": ""
+}
+```
+Upload a avatar image:
+```
+POST '/files'
+
+Bearer Authetication
+
+Multipart:
+{
+  "file": File
+}
+```
+List Providers
+```
+GET '/providers'
+
+Bearer Authetication
+```
+List Provider's Available Schedules 
+```
+POST '/providers/:provider_id/available'
+
+Bearer Authetication
+
+Query Params:
+{
+  "date": timestamp date
+}
+```
+Create an appointment
+```
+POST '/appointments'
+
+Bearer Authetication
+
+Request Body: 
+{
+	"provider_id": 2,
+	"date": "2020-06-27T15:00:00-03:00"
+}
+```
+List appointments
+```
+GET '/appointments'
+
+Bearer Authetication
+
+Query Params:
+{ 
+  "page": 1
+}
+```
 ## Libs:
 - Multer;
 - date-fns;
@@ -139,28 +228,34 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/phenriq694/GoStack_Modulos.git
+git clone https://github.com/phenriq694/GoStack_Modulos.git
 
 # Go into the repository
-$ cd GoStack_Modulos
+cd GoStack_Modulos
 
 # Change the branch
-$ git checkout goStack_modulos_2019
+git checkout goStack_modulos_2019
 
 # Go into the main repository
-$ cd modulo03/Continuing GoBarber APIs
+cd modulo03/Continuing GoBarber APIs
 
 # Install dependencies
-$ yarn
+yarn
 
 # Create a docker container with postgres
-$ docker run --name gobarber -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+docker run --name gobarber -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+# Create a docker container with MongoDB
+docker run --name gobarber_mongo -p 27017:27017 -d -t mongo
+
+# Create a docker container with MongoDB
+docker run --name gobarber_redis -p 6379:6379 -d -t redis:alpine
 
 # Run the migrations
-$ yarn sequelize db:migrate
+yarn sequelize db:migrate
 
 # Start back-end
-$ yarn dev
+yarn dev
 ``` 
 
 [nodejs]: https://nodejs.org/
