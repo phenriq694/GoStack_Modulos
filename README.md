@@ -46,9 +46,6 @@ https://github.com/phenriq694/goStack-level02-challenge
 
 # GoStack Bootcamp - 2019
 
-## Module 03: Continuing GoBarber API 
-https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo03/Continuando%20API%20do%20GoBarber/src
-
 ## Module 05: First Project with React
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo05
 
