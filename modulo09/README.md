@@ -13,44 +13,56 @@ In this module, the front-end of the BootCamp project was developed. During this
 
 Module Content:
 
-- Configured structure: in this class, the front-end to be developed was presented and the new React App was started.
+- Configured structure: in this class, the front-end to be developed was presented and the new React App was started;
 
-- API adjustment: adding the 'cors' library to the backend and adjusting some route returns.
+- API adjustment: adding the 'cors' library to the backend and adjusting some route returns;
 
-## :information_source: How To Use
+- Routes Configuration: Configuring routes with 'react-router-dom' and add the application pages with basic structure;
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.21.1][yarn] or higher installed on your computer. From your command line:
+- Reactotron Configuration: Add Reactotron configuration and open if the Reactotron is connecting with the application;
 
-```bash
-# Clone this repository
-$ git clone https://github.com/phenriq694/GoStack_Modulos.git
+- Private Routes: How configure private routes in the application and avoid users access pages without is loggin; 
 
-# Go into the repository
-$ cd GoStack_Modulos
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/routes/Rotas%20Privadas/Rotas%20Privadas.md
 
-# Change the branch
-$ git checkout goStack_modulos_2019
+- Pages Layouts: Creating one layout for authentication pages and other default layout for the other pages. 
 
-# Go into the main repository
-$ cd modulo09/
+- Global Style: Configuring a global style to the application/
 
-# Install back-end dependencies
-$ cd backend/
-$ yarn
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Styled%20Components/Global%20Style.md
 
-# Install front-end dependencies
-$ cd frontend/
-$ yarn
+- Using Root Import: Configuring root import in the application to enable use '~' char in the 'import' command to reference to the 'src' folder and avoid to use several '../' to navigate throught the files. 
 
-# Start back-end
-$ cd backend/
-$ yarn dev
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/1.%20Create%20a%20project/Utils/Root%20Import.md
 
-# Start front-end
-$ cd frontend/
-$ yarn start
-``` 
+- Auth Style: Styling the authetications pages; 
 
-[nodejs]: https://nodejs.org/
-[yarn]: https://yarnpkg.com/
+- Using Unform: Importing and using the lib '@rocketseat/unform' to create a form and avoid needs to create states to control the values. 
 
+- Validations: Using the lib 'yup' to input data validation;
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Input%20Validation/Using%20yup.md
+
+- Store Configuration: Redux initial settings;
+
+- Authentication: Creating an authetication module in the redux with a reducer, action and saga to make the sing in. 
+
+- Store Perfil: Creating a user module in the redux with a reducer to store the user information in the user module state;
+
+- Persisting Authentication: Configure redux to persist the authetication data in the application with 'redux-persist';
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/Persisting%20authentication.md
+
+- Authentication Loading: Add loading when the user sing in in the application. 
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/Authentication/Authetication%20Loading.md
+
+- Showing Toasts: Adding notifications in the application with 'react-toastify' lib;
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Notifications/React%20Toastify.md
+
+- Registering in the application: Configure redux to store a provider in the application;
+
+- Athenticated Requests: Persisting the authentication token in other routes of the application. 
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/Authentication/Authenticated%20Routes.md
