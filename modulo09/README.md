@@ -66,3 +66,11 @@ Module Content:
 - Athenticated Requests: Persisting the authentication token in other routes of the application. 
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react/redux/Authentication/Authenticated%20Routes.md
+
+  - Configuring Header: creating and styling the Header component;
+
+    https://github.com/phenriq694/base_de_conhecimento/blob/master/react/Componentes/Componentes%20Padr%C3%B5es%20/Configurando%20Header/Configurando%20Header.md
+
+  - Notifications Styling: Creating and styling the Notification coponent; 
+
+  - Notifications:  Getting all notifications by calling the API and adding with the Notification component;
