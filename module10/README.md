@@ -48,4 +48,10 @@ In this module, the mobile of the BootCamp project was developed. During this mo
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react-native/1.%20Criando%20um%20projeto/utils/Root%20Import.md
 
-- Autheticated Routes: 
+- Autheticated Routes: Configuring react navigation and add the routes of the application;
+
+- Background Configuration: Add the 'react-native-linear-gradiente' lib to add a gradient effect in the background of the 'SignIn' page. 
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react-native/M%C3%B3dulos/react-native-linear-gradient/react-native-linear-gradient.md
+
+  
