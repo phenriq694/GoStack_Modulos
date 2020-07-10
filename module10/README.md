@@ -40,4 +40,12 @@ In this module, the mobile of the BootCamp project was developed. During this mo
 [howToUse]: https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module10/frontend#application-developed
 
 ## Module Content:
+- Structure Configured: Start the project with basic configurations;
 
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react-native/1.%20Criando%20um%20projeto/1.%20Criando%20um%20projeto.md
+
+- Configuring Root Import: How to configure the root import feature in React Native;
+
+  https://github.com/phenriq694/base_de_conhecimento/blob/master/react-native/1.%20Criando%20um%20projeto/utils/Root%20Import.md
+
+- Autheticated Routes: 
