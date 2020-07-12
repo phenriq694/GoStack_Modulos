@@ -54,4 +54,15 @@ In this module, the mobile of the BootCamp project was developed. During this mo
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react-native/M%C3%B3dulos/react-native-linear-gradient/react-native-linear-gradient.md
 
-  
+- Input & Button: Creating a Button and an Input component and adding to the SingIn page; 
+
+- SignIn Page: Configuring and styling the SignIn page;
+
+- SignUp Page: Configuring and styling the SignUp page;
+
+- Configuring StatusBar: Change the color of the Status Bar;
+
+- Accessibility Tips: Using some attributes and the ref attribute to reference the form inputs and change your compontment when the return button from the device is touched;
+
+
+
