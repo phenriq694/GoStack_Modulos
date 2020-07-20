@@ -48,9 +48,9 @@ In this module, the mobile of the BootCamp project was developed. During this mo
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react-native/1.%20Criando%20um%20projeto/utils/Root%20Import.md
 
-- Autheticated Routes: Configuring react navigation and add the routes of the application;
+- Autheticated Routes: Configuring react navigation and add the application routes;
 
-- Background Configuration: Add the 'react-native-linear-gradiente' lib to add a gradient effect in the background of the 'SignIn' page. 
+- Background Configuration: Adding the 'react-native-linear-gradiente' lib to add a gradient effect in the background of the 'SignIn' page. 
 
   https://github.com/phenriq694/base_de_conhecimento/blob/master/react-native/M%C3%B3dulos/react-native-linear-gradient/react-native-linear-gradient.md
 
@@ -62,7 +62,34 @@ In this module, the mobile of the BootCamp project was developed. During this mo
 
 - Configuring StatusBar: Change the color of the Status Bar;
 
-- Accessibility Tips: Using some attributes and the ref attribute to reference the form inputs and change your compontment when the return button from the device is touched;
+- Accessibility Tips: Using some attributes and the ref attribute to reference the form inputs and change their behavior when the device's return button is touched;
 
+- Reactotron: Connecting Reactotron with the application;
 
+- Configuring Redux: Creating all configuration files to add the redux in the application; 
 
+- Connecting Redux: Adding the redux configuration in the SignIn and SignUp pages to calling the API and store the data. 
+
+- Initial Route: Changing the 'routes.js' file to return a route depending if the user is logged in or not. 
+
+- Styling routes: Creating Profile page and styling it and the Dashboard page;
+
+- Appointments List: Creating and Styling an Appointment component and add it to a list on the Dashboard page;
+
+- Appointment from API: Listing all appointments by calling the API; 
+
+- Profile Updated: Adding components to the Profile page and calling the API to obtain and display the user's current name and email address. Also calling the API to update the user's profile data;
+                 
+- Logout: Adding a logout button on the Profile page. When clicked it's dispatches an action that changes the auth token to null and the signin value to false, logging the user out;
+
+- Appointment Routes: Create SelectProvider, SelectDateTime and Confirm pages; 
+
+- Listing Providers: Getting all providers by calling the API and listing on the SelectProvider page;
+
+- DatePicker por plataforme: Creating a component called DateInput with two index files, one for android and one for ios. Each of them has its DatePicker component. It was configured and stylized; 
+
+- Selecting Appointment Hour: Listing the avaiable hours of the provider on the SelectDateTime page;
+
+- Appointment Cofirm: Configuring the Confirm page and calling the API to create new appointments;
+
+- Appointment Load: Configuring the Dashboard page to reload every time it is accessed, reloading all content and loading the new appointments. 
