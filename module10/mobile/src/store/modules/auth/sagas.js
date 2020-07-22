@@ -44,7 +44,7 @@ export function* signUp({ payload }) {
       password,
     });
 
-    // history.push('/');
+    Alert.alert('SingUp Successful', 'Click in the SignIn Button!');
   } catch (err) {
     Alert.alert(
       'Registration Error',
