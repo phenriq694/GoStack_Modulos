@@ -43,3 +43,8 @@ https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo08
 ## Module 09: GoBarber Web
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/modulo09
 
+## Module 10: GoBarber Mobile
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module10
+
+## Module 11: Node Tests
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module11
