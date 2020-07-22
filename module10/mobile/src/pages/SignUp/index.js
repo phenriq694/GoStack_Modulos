@@ -71,7 +71,7 @@ export default function SignUp({ navigation }) {
           />
 
           <SubmitButton loading={loading} onPress={handleSubmit}>
-            Criar Conta
+            Create Account
           </SubmitButton>
         </Form>
 

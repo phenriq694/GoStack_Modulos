@@ -50,7 +50,7 @@ export default function Confirm({ navigation }) {
 }
 
 Confirm.navigationOptions = ({ navigation }) => ({
-  title: 'Confirmar Agendamento',
+  title: 'Confirm Appointment',
   headerLeft: () => (
     <TouchableOpacity
       onPress={() => {

@@ -45,7 +45,7 @@ export default (signedIn = false) =>
               ),
               navigationOptions: {
                 tabBarVisible: false,
-                tabBarLabel: 'Agendar',
+                tabBarLabel: 'Schedule',
                 tabBarIcon: (
                   <Icon
                     name="add-circle-outline"

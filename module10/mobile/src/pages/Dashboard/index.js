@@ -42,7 +42,7 @@ function Dashboard({ isFocused }) {
   return (
     <Background>
       <Container>
-        <Title>Agendamentos</Title>
+        <Title>Appointments</Title>
 
         <List
           data={appointments}
@@ -57,7 +57,7 @@ function Dashboard({ isFocused }) {
 }
 
 Dashboard.navigationOptions = {
-  tabBarLabel: 'Agendamentos',
+  tabBarLabel: 'Appointments',
   tabBarIcon: ({ tintColor }) => (
     <Icon name="event" size={20} color={tintColor} />
   ),

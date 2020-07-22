@@ -56,7 +56,7 @@ export default function Profile() {
   return (
     <Background>
       <Container>
-        <Title>Meu Perfil</Title>
+        <Title>Profile</Title>
 
         <Form>
           <FormInput
@@ -127,7 +127,7 @@ export default function Profile() {
 }
 
 Profile.navigationOptions = {
-  tabBarLabel: 'Meu Perfil',
+  tabBarLabel: 'Profile',
   tabBarIcon: ({ tintColor }) => (
     <Icon name="person" size={20} color={tintColor} />
   ),
