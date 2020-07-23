@@ -167,7 +167,7 @@ cd GoStack_Modulos
 git checkout goStack_modulos_2019
 
 # Go into the main repository
-cd modulo03/Continuing GoBarber APIs
+cd modulo09/backend
 
 # Install dependencies
 yarn
