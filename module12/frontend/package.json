@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "scripts": "react-app-rewired start",
@@ -18,7 +20,7 @@
       "**/__tests__/**/*.test.js"
     ],
     "setupFilesAfterEnv": [
-      "@testing-library/jest-dom/extend-expect", 
+      "@testing-library/jest-dom/extend-expect",
       "jest-localstorage-mock"
     ],
     "moduleNameMapper": {
