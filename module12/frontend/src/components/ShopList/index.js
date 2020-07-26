@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 
+import { addItem }from '../../store/modules/items/actions';
+
 export default function ShopList() {
   const [newItem, setNewItem] = useState('');
 
@@ -8,7 +10,7 @@ export default function ShopList() {
   const items = useSelector(state => state.items);
 
   function handleAddItem() {
-    dispatch({ type: 'ADD_ITEM', payload: { tech: newItem } });
+    dispatch(addItem(newItem));
     setNewItem('');
   }
 

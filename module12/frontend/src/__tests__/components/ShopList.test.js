@@ -1,6 +1,8 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
-import { render } from '@testing-library/react';
+import { useSelector, useDispatch } from 'react-redux';
+import { render, fireEvent } from '@testing-library/react';
+
+import { addItem }from '../../store/modules/items/actions';
 
 import ShopList from '~/components/ShopList';
 
@@ -16,5 +18,18 @@ describe('ShopList component', () => {
 
     expect(getByTestId('item-list')).toContainElement(getByText('Notebook'));
     expect(getByTestId('item-list')).toContainElement(getByText('iPhone'));    
+  });
+
+  it('should be able to add new item', () => {
+    const { getByTestId, getByLabelText } = render(<ShopList />);
+
+    const dispatch = jest.fn();
+
+    useDispatch.mockReturnValue(dispatch);
+
+    fireEvent.change(getByLabelText('Item'), { target: { value: 'Notebook' } });
+    fireEvent.submit(getByTestId('item-form'));
+
+    expect(dispatch).toHaveBeenCalledWith(addItem('Notebook'));
   });
 });
