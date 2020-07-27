@@ -48,3 +48,6 @@ https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module10
 
 ## Module 11: Node Tests
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module11
+
+## Module 12: React Tests
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module12
