@@ -51,3 +51,9 @@ https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module11
 
 ## Module 12: React Tests
 https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module12
+
+## Module 13: Advanced Topics
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module13
+
+## Module 14: Node Securtiy
+https://github.com/phenriq694/GoStack_Modulos/tree/goStack_modulos_2019/module14
