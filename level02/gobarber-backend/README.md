@@ -67,7 +67,7 @@ $ cd GoStack_Modulos/level02/gobarber-backend
 $ yarn
 
 # Run the migrations
-yarn typorm migration:run
+yarn typeorm migration:run
 
 # Start application
 $ yarn dev:server
