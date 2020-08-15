@@ -1,7 +1,6 @@
 import AppError from '@shared/errors/AppError';
 import FakeAppointmentsRepository from '../repositories/fakes/FakeAppointmentsRepository';
 import CreateAppointmentsService from './CreateAppointmentService';
-import appointmentRouter from '../infra/http/routes/appointments.routes';
 
 describe('CreateAppointment', () => {
   it('should be able to create a new appointment', async () => {
