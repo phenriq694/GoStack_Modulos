@@ -9,7 +9,7 @@
 
 
 
-Module Achercture and tests in Node.js:
+**Module Achercture and tests in Node.js**
 
 - TDD and DDD concepts: What is and when to use TDD (Test Driven Development) and DDD (Domain Driven ;
 Development)
@@ -60,7 +60,68 @@ Development)
 
 - Avatar Update: Creating UpdateUserAvatar testes;
 
+**Module Continuing app back-end**
+
+- Mapping App Features: Describing all the functional and non funtional requiriments and business rules of the application, using the layout as reference;
+
+- Applying TDD with pratices:
 ### Application Developed
+
+### Requirements
+#### Recover Password
+**Functional Requiriments**
+- The user must be able to recover your password informing your e-mail address;
+- The user must be able to recevie an email with the password recover instructions;
+- The user must be able to reset your password;
+
+**Non Functional Requiriments**
+- Use Mailtrap to test sending mail in dev environment;
+- Use Amazon SES to sending mail in production environment;
+- Sending mail must be executed in background;
+
+**Business Rules**
+- The link sent by an email to recover the password must expire in 2 hours;
+- The user needs to confirm the new password when reset your password;
+
+#### Profile Update
+**Funcional Requiriments**
+- The user must be able to update your name, email address and password;
+
+**Business Rules**
+- The user cannot change your email to another already in use;
+- To update your password, the user needs to enter your old password;
+- To update your password, the user needs to confirm your new password;
+
+#### Appointments
+**Functional Requiriments**
+- The user must be able to list all registered providers;
+- The user must be able to list the days of a month with at least one available time of a provider;
+- The user must be able to list available schedules in a specific day of provider;
+- The user must be able to make a new appoinment with a provider;
+
+**Non Functional Requiriments**
+- The provider list msut be stored in chace;
+
+**Business Rules**
+- Each appoinment must last exactly 1 hour;
+- The appoinments must be available between at 8h to 18h (First at 8h, last at 17h);
+- The user cannot schedule a busy time;
+- The user cannot schedule a passed time;
+- The user cannot schedule services with your self;
+
+#### Provider panel
+**Functional Requiriments**
+- The provider must be able to list your appointments of a specific day;
+- The provider must be recevie a notification whenever there is a new appoinment;
+- The provider must be able to view all unread notifications;
+
+**Non Functional Requiriments**
+- The appoinments of the day must be stored in cache;
+- The notifications must be stored in MongoDB;
+- the notifications must be sent in real time using the Socket.io;
+
+**Business Rules**
+- The notification must have a unread or read status;
 
 #### Technologies
 - TypeScript;
