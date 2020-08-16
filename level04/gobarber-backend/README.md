@@ -64,7 +64,13 @@ Development)
 
 - Mapping App Features: Describing all the functional and non funtional requiriments and business rules of the application, using the layout as reference;
 
-- Applying TDD with pratices:
+- Applying TDD with pratices: Creating test for the send forgot password email feature;
+
+- Password Recover: Creating test for the password recover;
+
+- Passoword reset:
+
+
 ### Application Developed
 
 ### Requirements
