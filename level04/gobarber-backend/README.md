@@ -74,7 +74,11 @@ Development)
 
 - Saving tokens in database: Creating UserTokensRepository and a migration to create a table in the database to store user tokens;
 
-- Emails in development:
+- Emails in development: Add the lib 'nodemailer' to send the forgot password email. It was user the 'Ethereal Mail' to test sending mail em development envoronment;
+
+- Email Template: Configuring engine template 'handlebars' to send e-mail with templates;
+
+- Engine Template:
 
 
 ### Application Developed
