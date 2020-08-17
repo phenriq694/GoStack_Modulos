@@ -82,7 +82,9 @@ Development)
 
 - Refactoring Tests: Adding the function 'beforeEach' with the variables that repeat in each test;
 
-- Update Profile:
+- Update Profile: Creating a service and tests to update the user profile;
+
+- Profile routes and controllers:
 
 
 ### Application Developed
