@@ -80,7 +80,9 @@ Development)
 
 - Engine Template: Create a handlebars file with the forgot email template;
 
-- Refactoring Tests:
+- Refactoring Tests: Adding the function 'beforeEach' with the variables that repeat in each test;
+
+- Update Profile:
 
 
 ### Application Developed
