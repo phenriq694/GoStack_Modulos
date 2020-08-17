@@ -72,7 +72,9 @@ Development)
 
 - Finishing Tests: Creating new tests to the reset password feature;
 
-- Saving tokens in database:
+- Saving tokens in database: Creating UserTokensRepository and a migration to create a table in the database to store user tokens;
+
+- Emails in development:
 
 
 ### Application Developed
