@@ -78,7 +78,9 @@ Development)
 
 - Email Template: Configuring engine template 'handlebars' to send e-mail with templates;
 
-- Engine Template:
+- Engine Template: Create a handlebars file with the forgot email template;
+
+- Refactoring Tests:
 
 
 ### Application Developed
