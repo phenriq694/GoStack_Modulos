@@ -68,7 +68,11 @@ Development)
 
 - Password Recover: Creating test for the password recover;
 
-- Passoword reset:
+- Passoword reset: Creating a service and tests to the reset password feature;
+
+- Finishing Tests: Creating new tests to the reset password feature;
+
+- Saving tokens in database:
 
 
 ### Application Developed
