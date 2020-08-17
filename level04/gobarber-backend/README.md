@@ -84,7 +84,9 @@ Development)
 
 - Update Profile: Creating a service and tests to update the user profile;
 
-- Profile routes and controllers:
+- Profile routes and controllers: Creating routes and controllers to show and update profile;
+
+- Listing Providers:
 
 
 ### Application Developed
