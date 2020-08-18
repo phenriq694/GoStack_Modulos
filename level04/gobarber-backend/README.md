@@ -94,7 +94,11 @@ Development)
 
 - Listing Available Time: Creating list providers availability in a day service and test;
 
- - Deleting Old schedules:
+ - Deleting past schedules: Adding a test to check if a time has passed;
+
+ - Create Appointment: Creating a migration to add the 'user_id' column in the 'appoinments' table;
+
+ - Appointment Rules:
 
 
 ### Application Developed
