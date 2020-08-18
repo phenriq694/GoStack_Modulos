@@ -92,7 +92,9 @@ Development)
 
 - Listing Available Days: Creating the logic to list only the available days;
 
-- Listing Available Time:
+- Listing Available Time: Creating list providers availability in a day service and test;
+
+ - Deleting Old schedules:
 
 
 ### Application Developed
