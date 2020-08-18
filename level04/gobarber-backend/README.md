@@ -88,7 +88,11 @@ Development)
 
 - Listing Providers: Creating a service, a route and a contr to list all the providers;
 
-- Filtering Appoinments by month:
+- Filtering Appoinments by month: Creating list providers availability in a month service and test;
+
+- Listing Available Days: Creating the logic to list only the available days;
+
+- Listing Available Time:
 
 
 ### Application Developed
