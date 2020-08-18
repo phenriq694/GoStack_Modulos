@@ -98,7 +98,9 @@ Development)
 
  - Create Appointment: Creating a migration to add the 'user_id' column in the 'appoinments' table;
 
- - Appointment Rules:
+ - Appointment Rules: Adding new tests to the CreateAppointmentService covering all business rules;
+
+ - Routes and controllers:
 
 
 ### Application Developed
