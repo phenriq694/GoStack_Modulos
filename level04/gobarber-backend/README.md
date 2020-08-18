@@ -100,7 +100,11 @@ Development)
 
  - Appointment Rules: Adding new tests to the CreateAppointmentService covering all business rules;
 
- - Routes and controllers:
+ - Routes and controllers: Creating the controllers and routes to list the day and month availability;
+
+ **Module Finishing App back-end**
+
+ - Provider Schedule:
 
 
 ### Application Developed
