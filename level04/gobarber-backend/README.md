@@ -86,7 +86,9 @@ Development)
 
 - Profile routes and controllers: Creating routes and controllers to show and update profile;
 
-- Listing Providers:
+- Listing Providers: Creating a service, a route and a contr to list all the providers;
+
+- Filtering Appoinments by month:
 
 
 ### Application Developed
