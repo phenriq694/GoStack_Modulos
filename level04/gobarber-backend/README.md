@@ -120,7 +120,9 @@ Development)
 
 - Using Class Transformer: Adding the lib 'class-transformer' to exclude the 'password' attribute and expose the 'avatar_url' in the controllers realated to the User entity"
 
+- Emails with Amazon SES: How to configure Amazon SES to send emails;
 
+- Organizing the container:
 
 
 ### Application Developed
