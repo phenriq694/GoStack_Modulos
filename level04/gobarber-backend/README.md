@@ -104,7 +104,9 @@ Development)
 
  **Module Finishing App back-end**
 
- - Provider Schedule:
+ - Provider Schedule: Creating listing provider appointments in a specific day feature;
+
+ - Configuring MongoDB:
 
 
 ### Application Developed
@@ -178,6 +180,7 @@ Development)
 
 ### Database
 - Postgres;
+- MongoDB;
 
 ### Tools
 - Insomnia;
@@ -207,6 +210,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 ```bash
 # Configure a docker image with postgres
 docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+# Configure a docker image with MongoDB
+docker run --name goBarber_mongo -p 27017:27017 -d -t mongo
+
 
 # Create a database called
 gostack_gobarber
