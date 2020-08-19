@@ -122,7 +122,11 @@ Development)
 
 - Emails with Amazon SES: How to configure Amazon SES to send emails;
 
-- Organizing the container:
+- Organizing the container: Isolating all providers configurations;
+
+- File Upload to Amazon S3: How to configure upload files to Amazon S3;
+
+-
 
 
 ### Application Developed
