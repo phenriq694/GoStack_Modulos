@@ -114,7 +114,11 @@ Development)
 
  - Refactoring Tests: Adding the FakeNotificationRepository in the CreateAppointment tests;
 
- - Data Validation:
+ - Data Validation: Adding data validation with the lib 'celebrate';
+
+ - Environment Variables: Configuring environment variables with the lib 'dotenv';
+
+
 
 
 ### Application Developed
@@ -185,6 +189,7 @@ Development)
 - tsyringe;
 - bcrypt;
 - jest;
+- celebrate;
 
 ### Database
 - Postgres;
