@@ -106,7 +106,13 @@ Development)
 
  - Provider Schedule: Creating listing provider appointments in a specific day feature;
 
- - Configuring MongoDB:
+ - Configuring MongoDB: Differences between mongo and postgres, when to use mongo and how to configurate in the project;
+
+ - Structuring Notifications: Creating the entity Notification using mongoDB as database;
+
+ - Sending Notifications: Adding the creation of a notification when appoinment is created;
+
+ - Refactoring Tests:
 
 
 ### Application Developed
