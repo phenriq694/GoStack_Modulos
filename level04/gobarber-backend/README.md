@@ -112,7 +112,9 @@ Development)
 
  - Sending Notifications: Adding the creation of a notification when appoinment is created;
 
- - Refactoring Tests:
+ - Refactoring Tests: Adding the FakeNotificationRepository in the CreateAppointment tests;
+
+ - Data Validation:
 
 
 ### Application Developed
