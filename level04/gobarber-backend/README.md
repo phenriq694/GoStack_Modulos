@@ -118,6 +118,8 @@ Development)
 
  - Environment Variables: Configuring environment variables with the lib 'dotenv';
 
+- Using Class Transformer: Adding the lib 'class-transformer' to exclude the 'password' attribute and expose the 'avatar_url' in the controllers realated to the User entity"
+
 
 
 
