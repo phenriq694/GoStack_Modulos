@@ -235,6 +235,8 @@ docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d p
 # Configure a docker image with MongoDB
 docker run --name goBarber_mongo -p 27017:27017 -d -t mongo
 
+# Configure a docker image with Redis
+docker run --name mongo_redis -p 6379:6379 -d -t redis:alpine
 
 # Create a database called
 gostack_gobarber
