@@ -128,7 +128,9 @@ Development)
 
 - Configuring Cache: Configuring a redis docker image, using the lib 'ioredis' to create a connection with redis database and creating a cache provider;
 
-- Cache Provider List:
+- Cache Provider List: Adding cache configuration in the ListProviderService;
+
+- Ivalidating Cache:
 
 
 ### Application Developed
