@@ -132,7 +132,11 @@ Development)
 
 - Ivalidating Cache: When a new user is created the cache created in the previous class is invalidated;
 
-- Appoinment Cache:
+- Appoinment Cache: Adding cache configuration in the CreateAppointmentService;
+
+- Refactoring Tests: Fixing some tests after the previous configurations in the services;
+
+
 
 
 ### Application Developed
