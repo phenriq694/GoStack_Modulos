@@ -126,7 +126,9 @@ Development)
 
 - File Upload to Amazon S3: How to configure upload files to Amazon S3;
 
--
+- Configuring Cache: Configuring a redis docker image, using the lib 'ioredis' to create a connection with redis database and creating a cache provider;
+
+- Cache Provider List:
 
 
 ### Application Developed
