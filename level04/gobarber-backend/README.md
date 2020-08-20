@@ -130,7 +130,9 @@ Development)
 
 - Cache Provider List: Adding cache configuration in the ListProviderService;
 
-- Ivalidating Cache:
+- Ivalidating Cache: When a new user is created the cache created in the previous class is invalidated;
+
+- Appoinment Cache:
 
 
 ### Application Developed
