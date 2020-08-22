@@ -14,4 +14,6 @@ Module Content:
 
 - Organized Insomnia: Creating folders and organizing the requests;
 
-- Creating recover page:
+- Creating recover page: Creating the ForgotPassword page;
+
+- Sending a form to the API:
