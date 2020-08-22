@@ -1,53 +1,17 @@
 Module Content:
 
-- Configuring Structure: Creating a new project with create-react-app commando, adding ESLint configuration and removing unecessary files;
+- Introduction: In this class the layouts of the pages that you will be developed was presented;
 
-- Global Style: Configuring the application global style using the lib 'styled-components';
+- Using Query Params: Fixing controllers that were receiving the request data via body and not via query;
 
-- Login Page: Creating the SignIn Page layout and styles;
+- Appointments in the same time: In the back-end, if a user tried to create an appointment in the same date, but with a another provider, the API was returning an error. In this class, this problema was fixed by adding the 'provider_id' attribute in the method that did this query in the database;
 
-- Isolating Components: Refactoring the code and isolating the inputs and button from the signIn page to reuse in other components;
+- Unavailable day on month: When listing all available days in a month, the API was returning true eveing for past days. In this class, this problem was fixed by adding the 'isAfeter' method from the 'date-fns' lib when the retuning all the available days;
 
-- SignUp Page: Creating the SignUp Page layout and styles;
+- Appointments Clients: Returning the user information when a provider list yours appointments;
 
-- Using Unform: How to use the lib 'rocketseat/unform' to create forms and increase the form performance;
+- Serielization in cache: Add 'classToClass' when the response is added in the cache;
 
-- Input Usability: Adding 'onFocus' and 'onBlur' to a div component. The 'useCallback' hook was introduced to memorize functions;
+- Organized Insomnia: Creating folders and organizing the requests;
 
-- Registering Validation: Using the lib 'yup' to validate input data;
-
-- Showing Input Errors: Getting validation erros from the lib 'yup' and printing in the Input component;
-
-- Creating tooltip to errors: Creating Tooltip component and styling to shows when an error is ocurred in the input data validation;
-
-- Login Validation: Applying the same configuration of input data validation made in the SignUp page in the SignIn page;
-
-- Enable CORS on the API: Add the lib 'cors' in the backend;
-
-- Context API: Basic information about how to use the 'useContext' hook;
-
-  https://github.com/phenriq694/base_de_conhecimento/blob/master/typescript/react/Hooks/useContext/Basic%20Configuration.md
-
-- Login by context: Adding a singIn method in the AuthContext and use this method the the SignIn page to calling the API and getting session information;
-
-- Keeping user on the storage: Persist the user session by adding the token and user in the localStorage;
-
-- Creating useAuth hook: How to creating a custom hook;
-
-- Logout: Creating a signOut method in the AuthContext;
-
-- Toasts Structure: Creating a Toast component;
-
-- Creating toast hook: Creating a toast context with a hook;
-
-- Adding or Remove Toasts: Creating two functions to add or remove toasts.
-
-- Animating Toast: Using the lib 'react-spring' to animate the toasts;
-
-- Configuring Routes: Add routes configuration in the application with the lib 'react-router-dom'. Adding an amination when changing between the SignIn and SignUp pages;
-
-- Authenticated Routes: Creating a custom Route component and configuring to control if a route is or not private and needs to be logged in;
-
-- Finish the App: Calling the api to register a new user in the SignUp page and redirecting the new user to the SignIn page;
-
-
+- Creating recover page:
