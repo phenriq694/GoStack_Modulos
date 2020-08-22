@@ -16,4 +16,8 @@ Module Content:
 
 - Creating recover page: Creating the ForgotPassword page;
 
-- Sending a form to the API:
+- Sending a form to the API: Sending the form data from the ForgotPassword page to the API;
+
+- Creating Reset Page: Creating the ResetPassword page;
+
+- Implementing Reset:
