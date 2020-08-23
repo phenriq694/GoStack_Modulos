@@ -30,4 +30,8 @@ Module Content:
 
 - Calendar and styling: Adding a calendar in the Dashboard page with the lib 'react-day-picker';
 
-- Month Availability:
+- Month Availability: Getting the available days by calling the API and adding to the calendar;
+
+- API Appointments: Parsing the dates retriving from the API using the 'date-fns' lib and calling the API route that returns all the provider appointment from a specific day;
+
+- Showing Appointments:
