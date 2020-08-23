@@ -20,4 +20,6 @@ Module Content:
 
 - Creating Reset Page: Creating the ResetPassword page;
 
-- Implementing Reset:
+- Implementing Reset: Sending the form data from the ResetPasswrod page to the API;
+
+- Creating Header: Creating Header of the Dashboard page;
