@@ -34,4 +34,8 @@ Module Content:
 
 - API Appointments: Parsing the dates retriving from the API using the 'date-fns' lib and calling the API route that returns all the provider appointment from a specific day;
 
-- Showing Appointments:
+- Showing Appointments: Add the listing of appointments returned of the API in the Dashboard page;
+
+- Finishing Appointment list: Retriving the next appointment based in the current time and add in the dashboard page;
+
+
