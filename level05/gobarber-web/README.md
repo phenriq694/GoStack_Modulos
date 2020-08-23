@@ -23,3 +23,7 @@ Module Content:
 - Implementing Reset: Sending the form data from the ResetPasswrod page to the API;
 
 - Creating Header: Creating Header of the Dashboard page;
+
+- Next Appointment: Creating and styling the HTML element of the next appointment in the Dashboard page;
+
+- Apointments List:
