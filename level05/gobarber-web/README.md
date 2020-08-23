@@ -27,3 +27,7 @@ Module Content:
 - Next Appointment: Creating and styling the HTML elements of the next appointment in the Dashboard page;
 
 - Apointments List: Creating and styling the HTML elements of the other appointments in the Dashboard page;
+
+- Calendar and styling: Adding a calendar in the Dashboard page with the lib 'react-day-picker';
+
+- Month Availability:
