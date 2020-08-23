@@ -24,6 +24,6 @@ Module Content:
 
 - Creating Header: Creating Header of the Dashboard page;
 
-- Next Appointment: Creating and styling the HTML element of the next appointment in the Dashboard page;
+- Next Appointment: Creating and styling the HTML elements of the next appointment in the Dashboard page;
 
-- Apointments List:
+- Apointments List: Creating and styling the HTML elements of the other appointments in the Dashboard page;
