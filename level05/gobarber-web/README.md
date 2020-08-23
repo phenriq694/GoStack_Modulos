@@ -38,4 +38,4 @@ Module Content:
 
 - Finishing Appointment list: Retriving the next appointment based in the current time and add in the dashboard page;
 
-
+- Profile page: Creating and styling the Profile page;
