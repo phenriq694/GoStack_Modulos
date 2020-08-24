@@ -73,7 +73,7 @@ export const AuthProvider: React.FC = ({ children }) => {
         user,
       });
     },
-    [data.token],
+    [data.token, setData],
   );
 
   return (

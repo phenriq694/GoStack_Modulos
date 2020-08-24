@@ -39,3 +39,7 @@ Module Content:
 - Finishing Appointment list: Retriving the next appointment based in the current time and add in the dashboard page;
 
 - Profile page: Creating and styling the Profile page;
+
+- Avatar Change: Adding a file input in the Profile page to update the user avatar sending the new image to the API;
+
+- Data Update:
