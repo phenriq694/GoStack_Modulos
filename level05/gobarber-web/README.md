@@ -42,4 +42,4 @@ Module Content:
 
 - Avatar Change: Adding a file input in the Profile page to update the user avatar sending the new image to the API;
 
-- Data Update:
+- Data Update: Adding the connection with the update profile route from the API and sending the data;
