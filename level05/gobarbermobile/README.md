@@ -6,5 +6,9 @@ Module Content:
 
 - Images Address: Changing the API address to android can be able to access the URL;
 
-- Creating routes and pages:
+- Creating routes and pages: Creating the pages and routes that will be developed in this module;
+
+- Dashboard Header: Creating the Dashboard page layout;
+
+- Getting Providers from API:
 
