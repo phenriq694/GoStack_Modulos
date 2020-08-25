@@ -10,5 +10,7 @@ Module Content:
 
 - Dashboard Header: Creating the Dashboard page layout;
 
-- Getting Providers from API:
+- Getting Providers from API: Connecting the Dashboard page with the API and listing all the providers;
+
+
 
