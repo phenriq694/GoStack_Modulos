@@ -14,5 +14,7 @@ Module Content:
 
 - Provider List: Creating the provider list layout;
 
-- Appointment Create Structure:
+- Appointment Create Structure: Creating the CreateAppointment header layout;
+
+- Changing between providers:
 
