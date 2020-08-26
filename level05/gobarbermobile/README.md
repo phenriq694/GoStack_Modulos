@@ -12,5 +12,7 @@ Module Content:
 
 - Getting Providers from API: Connecting the Dashboard page with the API and listing all the providers;
 
+- Provider List: Creating the provider list layout;
 
+- Appointment Create Structure:
 
