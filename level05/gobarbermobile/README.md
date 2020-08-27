@@ -16,5 +16,9 @@ Module Content:
 
 - Appointment Create Structure: Creating the CreateAppointment header layout;
 
-- Changing between providers:
+- Changing between providers: Styling the providers list;
+
+- Creating Date Picker: Creating a date picker element using the lib 'react-native-community/datetimepicker';
+
+- Seeking Availability at API:
 
