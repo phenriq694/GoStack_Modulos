@@ -24,7 +24,9 @@ Module Content:
 
 - Availability by period: Using the useMemo hook to save the provider availability;
 
-- Showing the schedule:
+- Showing the schedule: Creating the layout to the provider availability;
+
+- Create Appointment: Adding the connection with the API to create an appointment;
 
 ## Tools:
 - Flipper Debugger;
