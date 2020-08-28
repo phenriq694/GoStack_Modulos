@@ -20,5 +20,11 @@ Module Content:
 
 - Creating Date Picker: Creating a date picker element using the lib 'react-native-community/datetimepicker';
 
-- Seeking Availability at API:
+- Seeking Availability at API: Calling the API to get the providers availability;
 
+- Availability by period: Using the useMemo hook to save the provider availability;
+
+- Showing the schedule:
+
+## Tools:
+- Flipper Debugger;
