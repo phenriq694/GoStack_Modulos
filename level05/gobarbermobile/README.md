@@ -28,5 +28,9 @@ Module Content:
 
 - Create Appointment: Adding the connection with the API to create an appointment;
 
+- Creating Success Screen structure: Creating the layout to the AppointmentCreated page;
+
+- Formating the date: Using the lib 'date-fns' the date that appears in the success screen are formated;
+
 ## Tools:
 - Flipper Debugger;
